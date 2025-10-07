@@ -23,14 +23,6 @@ The project was created as a practical exercise in **data analysis, query optimi
 
 ---
 
-## 🔍 Example SQL Queries
-
-### Total Milk Production in 2023
-```sql
-SELECT SUM(Value) AS total_milk_production_2023
-FROM milk_production
-WHERE Year = 2023;
-
 ## 📊 Example Insights
 Analysis	Result
 Total milk production (2023)	91,812,000,000
@@ -46,4 +38,15 @@ SQL (MySQL / PostgreSQL)
 Git & GitHub
 Data Querying and Reporting
 Dataset Analysis and Aggregation
+
+
+## 🔍 Example SQL Queries
+
+### Total Milk Production in 2023
+```sql
+SELECT SUM(Value) AS total_milk_production_2023
+FROM milk_production
+WHERE Year = 2023;
+
+
 
